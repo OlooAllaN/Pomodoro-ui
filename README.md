@@ -44,7 +44,7 @@ My project architecture and technologies was based on my current experience buil
     |-- Views                # Ui presentation
     └──` 
     ```
-    Database Schema
+    Database Schema # One to Many relationsip presentation Id primary key and userId foreign key constrain
     User Table
     Id  | Name
     --- | ---
@@ -54,7 +54,8 @@ My project architecture and technologies was based on my current experience buil
     Id  |Text | Status | UserId |
     --- | --  |  ---   |   ---  |
     112 |Task |   0    |   112  |   
-    ```
+    
+    
 This architecture loosely couples the application into a MVC architecture pattern. My goal was building an application that is scalable
 and seperates concerns into layers. The requirements stated to keep track of the user and their tasks. My architecure meets that requirements in that data is sent through the controller into the services layer and then persisted to a relation database. Not only does this architecture meet the requirements it also simplifies architecure framework changes if needed. Lets say the architects decide to change database from relational to graph. All they would need to do is change the data access layer configuration to point to a graph database system.
 
