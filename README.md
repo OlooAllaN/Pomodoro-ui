@@ -42,13 +42,25 @@ My project architecture and technologies was based on my current experience buil
     |-- TableEntities        # Data Modeling
     |-- UiServices           # Ui logic
     |-- Views                # Ui presentation
-    └── 
-
-
+    └──` 
+    ```
+    Database Schema
+    User Table
+    Id  | Name
+    --- | ---
+    112 | Clark
+    
+    Task Table
+    Id  |Text | Status | UserId |
+    --- | --  |  ---   |   ---  |
+    112 |Task |   0    |   112  |   
+    ```
 This architecture loosely couples the application into a MVC architecture pattern. My goal was building an application that is scalable
 and seperates concerns into layers. The requirements stated to keep track of the user and their tasks. My architecure meets that requirements in that data is sent through the controller into the services layer and then persisted to a relation database. Not only does this architecture meet the requirements it also simplifies architecure framework changes if needed. Lets say the architects decide to change database from relational to graph. All they would need to do is change the data access layer configuration to point to a graph database system.
 
-I was unable to completely finish the coding challenge due to issues connecting my ORM to my relation database system. If I had achieved this issue I would have built my application this way. The user is presented a form to enter their name and task they wish to accomplish in that time period. My Ui would have presented the user with a modal. The modal would have had validation to ensure required fields are field before persisting the data into the database. After the user had entered the required information. The data would have then been sent to my controller actions. CRUD operation services would then handle storing the user and their task in a SQL relation database. The modal would have closed by the time the user hit submit. The clock would then have started counting down. I would have stored the user task in localstorage and with the current clock state. If the user refreshed or closed the browser data would notb be lost and the clock would still have the current countdown state. 
+I was unable to completely finish the coding challenge due to issues connecting my ORM to my relation database system. If I had achieved this issue I would have built my application this way. The user is presented a form to enter their name and task they wish to accomplish in that time period. My Ui would have presented the user with a modal. The modal would have had validation to ensure required fields are field before persisting the data into the database. After the user had entered the required information. The data would have then been sent to my controller actions. CRUD operation services would then handle storing the user and their task in a SQL relation database. The modal would have closed by the time the user submitted the form. The clock would have started counting down. The task would have been appended in the dom within a task component contained in a div container above the clock. Once the time has stopped the user would have been prompted with another modal confirming the task was finished. If finished the task component would updated completed. If not the 5 minute break would start. After the break time, The user would be prompted again to continue working on the task or start a new one and the process would start over. I would have stored the user task in the web browser localstorage and with the current clock state. If the user refreshed or closed the browser, data would not be lost and the clock would still have the current countdown state. 
+
+
 
 Apart from accomplishing the requirements I believe in test driven development. Unit test is valuable to ensure your application architecture if functioning as intended. I would have written unit tests for my frontend and backend services.
 
