@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - Pomodoro</title>
+    <link rel="stylesheet" href="./css/lib/vanilla-semantic/css/vanilla-semantic-min.css" />
+    <link rel="stylesheet" href="./css/site.css" />
+    <script src="./lib/xtag/xtag.js"></script>
+   </head>
+<body>
+    <header>
+        <div class="ui menu">
+            <div class="header item">
+                <a>Pomodoro</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <x-animate></x-animate>
+            <x-task-panel></x-task-panel>
+            <x-form></x-form>
+            <x-pomodoro>
+            </x-pomodoro>
+        </main>
+    </div>
+    <script src="./lib/vanilla-semantic/js/vanilla-semantic-min.js"></script>
+    <script src="./components/x-pomodoro.js"></script>
+    <script src="./components/x-animate.js"></script>
+    <script src="./components/x-control.js"></script>
+    <script src="./components/x-form.js"></script>
+</body>
+</html>
