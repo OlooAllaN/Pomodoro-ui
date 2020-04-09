@@ -30,7 +30,7 @@ My project architecture and technologies was based on my current experience buil
     │   ├── js              # Frequently asked questions
     │   ├── lib             # Miscellaneous information          # Getting started guide
     │   └── ...   
-    |-- Controllers 
+    |__ Controllers 
     |   |             # etc.
     └── 
     ```
