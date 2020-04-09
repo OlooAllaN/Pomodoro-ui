@@ -25,13 +25,17 @@ My project architecture and technologies was based on my current experience buil
   ```
     app
     |-
-    ├── wwwroot                  # Documentation files (alternatively `doc`)
-    │   ├── css              # Table of contents
-    │   ├── js              # Frequently asked questions
-    │   ├── lib             # Miscellaneous information          # Getting started guide
+    |-- wwwroot             # Ui source 
+    │   |-- css              
+    │   |-- js             
+    │   |-- lib             
     │   └── ...   
-    |____ Controllers 
-    |
-    |__             # etc.
+    |--Controllers          # Data transmission
+    |-- Migrations          # ORM Integration
+    |-- Models              # Ui data represenation
+    |-- Services            # Business logic 
+    |-- TableEntities       # Data Modeling
+    |-- UiServices          # Ui logic
+    |-- Views               # Ui presentation
     └── ...
     ```
