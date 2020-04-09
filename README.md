@@ -38,4 +38,4 @@ My project architecture and technologies was based on my current experience buil
     |-- UiServices          # Ui logic
     |-- Views               # Ui presentation
     └── 
-    ```
+    
