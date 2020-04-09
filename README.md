@@ -4,7 +4,7 @@
 ## Getting Started 
  Due to .NET Framework deployment issues. The application has been broken out into different git projects one for hosting and the other is the full project.
  Click this [pomodoro](https://olooallan.github.io/Pomodoro-ui/Index.html) link to be directed to the ui
- For the full git hub project repository Go to [Pomodoro Timer](https://github.com/OlooAllaN/Pomodoro-Timer).This repository contains the full project architecture. 
+ For the full git hub project repository Go to [Pomodoro Timer](https://github.com/OlooAllaN/Pomodoro-Timer). This repository contains the full project architecture. 
 
 ##  Technology Stack
 ####  Frontend
