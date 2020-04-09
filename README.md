@@ -24,7 +24,7 @@ My project architecture and technologies was based on my current experience buil
   
   ```
     app
-    |
+    |---
     ├── wwwroot                  # Documentation files (alternatively `doc`)
     │   ├── css              # Table of contents
     │   ├── js              # Frequently asked questions
