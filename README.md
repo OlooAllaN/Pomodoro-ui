@@ -34,7 +34,7 @@ My project architecture and technologies was based on my current experience buil
     │   |-- css              
     │   |-- js             
     │   |-- lib             
-    │   └── ...   
+    │   └──   
     |-- Controllers          # Data transmission
     |-- Migrations           # ORM Integration
     |-- Models               # Ui data represenation
