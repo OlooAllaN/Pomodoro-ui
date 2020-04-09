@@ -22,7 +22,6 @@
 My project architecture and technologies was based on my current experience building web based applications. My project was broken down loosely coupled layers data mapping layer, business logic layer, and ui logic layer. 
   
   
-  ```
     app
     |-
     |-- wwwroot             # Ui source 
