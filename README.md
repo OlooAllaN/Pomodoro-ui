@@ -2,7 +2,7 @@
  Pomodoro is a productivity hack that allows you to break down wok in intervals of 25 minutes separated by short breaks.
  
 ## Getting Started 
- Due to .NET Framework deployment issues. The ui has been broken out into a different git project in order to show case the ui.
+ Due to .NET Framework deployment issues. The application has been broken out into a different git projects in order to show case the ui.
  Click this [pomodoro](https://olooallan.github.io/Pomodoro-ui/Index.html) link to be directed to the ui
  For the full git hub project repository Go to [Pomodoro Timer](https://github.com/OlooAllaN/Pomodoro-Timer).This repository contains the full project architecture. 
 
