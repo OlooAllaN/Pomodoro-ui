@@ -37,5 +37,5 @@ My project architecture and technologies was based on my current experience buil
     |-- TableEntities       # Data Modeling
     |-- UiServices          # Ui logic
     |-- Views               # Ui presentation
-    └── ...
+    └── 
     ```
