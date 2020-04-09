@@ -6,7 +6,15 @@
  For the full git hub project repository Go to [Pomodoro Timer](https://github.com/OlooAllaN/Pomodoro-Timer).This repository contains the full project architecture. 
 
 ##  Technology Stack
-####  Front End
+####  Frontend
 - [X-tag](https://x-tag.github.io/)
-X-Tag is a small library that wraps the Web Components family of APIs to provide a tight, feature-rich interface that makes development of components even easier.
-####  BackEnd
+
+ X-Tag is a small library that wraps the Web Components family of APIs to provide a tight, feature-rich interface that makes development of components even easier.
+####  Backend
+- [.NET Core](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+ 
+  .NET Core is a cross platform open source platform for building application a cross all operating systems.
+
+- [Entity Framework](https://docs.microsoft.com/en-us/ef/)
+
+    Entity Framework is a open source ORM for working with data using objects of domain specific classes without focusing on the underlying database tables and columns where this data is stored.
