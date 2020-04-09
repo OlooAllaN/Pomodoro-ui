@@ -1,5 +1,5 @@
 # Pomodoro Timer
- Pomodoro is a productivity hack that allows you to break down wok in intervals of 25 minutes, separated by short breaks.
+ Pomodoro is a productivity hack that allows you to break down wok in intervals of 25 minutes separated by short breaks.
  
 ## Getting Started 
  Due to .NET Framework deployment issues. The ui has been broken out into a different git project in order to show case the ui.
@@ -48,7 +48,7 @@ I was unable to completely finish the coding challenge due to issues connecting 
 Apart from accomplishing the requirements I believe in test driven development. Unit test is valuable to ensure your application architecture if functioning as intended. I would have written unit tests for my frontend and backend services.
 
 ## Authors
-- Allan Oloo - Developer -
+- Allan Oloo | Developer
 
 ## Acknowledgments 
 - [Pomodoro Clock Ui inspiration](https://codepen.io/isabellle/pen/dYpGMq)
