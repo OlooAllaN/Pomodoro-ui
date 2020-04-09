@@ -56,6 +56,6 @@ Apart from accomplishing the requirements I believe in test driven development. 
 - Allan Oloo | Developer
 
 ## Acknowledgments 
-- [Pomodoro Clock Ui inspiration](https://codepen.io/isabellle/pen/dYpGMq)
+- [Pomodoro ui inspiration](https://codepen.io/isabellle/pen/dYpGMq)
 - [Entity Framework Documenation](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)
 - [Stackoverflow](https://stackoverflow.com/)
