@@ -44,7 +44,7 @@ My project architecture and technologies was based on my current experience buil
     |-- Views                # Ui presentation
     └──` 
     ```
-    Database Schema # One to Many relationsip presentation Id primary key and userId foreign key constrain
+    Database Schema          # One to Many relationsip presentation Id primary key and userId foreign key constrain
     User Table
     Id  | Name
     --- | ---
