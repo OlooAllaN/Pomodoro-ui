@@ -8,6 +8,6 @@
 ##  Technology Stack
 ####  Front End
 - [X-tag](https://x-tag.github.io/)
- 
- X-Tag is a small library that wraps the Web Components family of APIs to provide a tight, feature-rich interface that makes development of components even easier.
+  
+  X-Tag is a small library that wraps the Web Components family of APIs to provide a tight, feature-rich interface that makes development of components even easier.
 ####  BackEnd
