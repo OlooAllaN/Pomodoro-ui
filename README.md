@@ -37,7 +37,7 @@ My project architecture and technologies was based on my current experience buil
     │   └──   
     |-- Controllers          # Data transmission
     |-- Migrations           # ORM Integration
-    |-- Models               # Ui data represenation
+    |-- Models               # Ui data representation
     |-- Services             # Business logic 
     |-- TableEntities        # Data Modeling
     |-- UiServices           # Ui logic
